@@ -1,0 +1,96 @@
+/* 全体の背景 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #cae6ff, #c8ffd8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px; /* フッター分の余白 */
+}
+
+/* タイトルのスタイル */
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #2c2c2c;
+    margin: 20px 0;
+}
+
+/* ステップカードのスタイル */
+.First,
+.Second,
+.Third,
+.Last {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* カードの画像セクション */
+.image-container {
+    display: flex;
+    width: 100%;
+}
+
+.ScreenPic, .HnadPic, .EndPic {
+    width: 45%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0 2.5%;
+}
+
+/* EndPic の調整 */
+.EndPic {
+    margin-left: 25%;
+}
+
+/* 説明テキストのスタイル */
+.Explain {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #555555;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* フッターのリンク */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #333333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+footer .hsub {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .hsub:hover {
+    color: #dddddd;
+}
+
+/* フッターロゴのスタイル */
+.footer-logo {
+    width: 24px; /* 必要に応じてサイズを調整 */
+    height: 24px;
+    vertical-align: middle; /* テキストと中央揃え */
+    margin-right: 8px; /* テキストとの間隔 */
+}
