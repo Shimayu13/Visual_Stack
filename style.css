@@ -48,7 +48,7 @@ body {
     height: auto;
     object-fit: cover;
     border-radius: 5px;
-    margin: 0 2.5%;
+    margin: 0 2.5% 0 2.5%;
 }
 
 /* EndPic の調整 */
